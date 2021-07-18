@@ -1,0 +1,30 @@
+.navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 calc(var(--size-gutter) * (-1));
+    right: var(--size-margin);
+    bottom: var(--size-margin);
+    transform: rotate(90deg) translateX(100%) translateY(-100%);
+    transform-origin: top right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    >.navigation-links-container {
+        overflow: hidden;
+        display: inline-block;
+        >.navigation-links-moving {
+            transform: translateX(calc(-100% - 15px));
+            transition: transform 0.8s;
+            &.is-nav-visible {
+                transform: translateX(0);
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navigation {
+        display: none;
+    }
+}

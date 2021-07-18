@@ -1,0 +1,21 @@
+.before-check-list {
+    >h2 {
+        margin: 0;
+        color: var(--color-ash-gray);
+        display: inline-block;
+        background-color: var(--color-dark-forest);
+        padding: var(--size-margin-20);
+    }
+    >.check-list-items {
+        border: solid 1px var(--color-dark-forest);
+        padding: var(--size-margin-20);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .before-check-list {
+        >.check-list-items {
+            padding: var(--size-margin-10);
+        }
+    }
+}

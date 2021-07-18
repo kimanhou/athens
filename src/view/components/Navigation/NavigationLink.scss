@@ -1,0 +1,11 @@
+.navigation-link {
+    margin: 20px;
+    font-size: 18px;
+    display: table;
+    position: relative;
+    display: inline-block;
+    transition: color 0.4s;
+    &:hover {
+        color: var(--color-beige-rose);
+    }
+}

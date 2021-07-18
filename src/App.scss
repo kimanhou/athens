@@ -1,0 +1,26 @@
+@import './colors.scss';
+@import './sizes.scss';
+@import './fonts.scss';
+
+.App {
+    font-family: AnticDidone;
+    color: var(--color-black);
+    a {
+        text-decoration: none;
+        color: var(--color-black);
+    }
+
+    h2 {
+        font-family: ViaodaLibre;
+        color: var(--color-green-grey);
+    }
+
+    .content-wrapper {
+        margin: var(--size-main-margin) var(--size-main-margin) var(--size-margin-20);
+    }
+
+    .flex-row {
+        display: flex;
+        flex-direction: row;
+    }
+}

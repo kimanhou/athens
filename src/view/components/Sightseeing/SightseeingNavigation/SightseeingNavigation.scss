@@ -1,0 +1,36 @@
+.sightseeing-navigation {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 40px;
+    cursor: pointer;
+    color: var(--color-green-grey);
+    >.underline {
+        transition: width 0.8s;
+        width: 0%;
+        height: 2px;
+        margin-top: 5px;
+    }
+    &.active {
+        color: var(--color-dark-forest);
+        >.underline {
+            width: 90%;
+            background-color: var(--color-dark-forest);
+        }
+    }
+    &:hover {
+        color: var(--color-dark-forest);
+        >.underline {
+            width: 90%;
+            background-color: var(--color-dark-forest);
+        }
+    }
+    &.first {
+        margin-left: 35px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .sightseeing-navigation {
+        font-size: 30px;
+    }
+}

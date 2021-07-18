@@ -1,0 +1,24 @@
+.sightseeing {
+    position: relative;
+    >h1 {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 4rem;
+    }
+    >.sightseeing-navigation-links {
+        justify-content: center;
+        margin-bottom: var(--size-main-margin);
+        >.sightseeing-navigation {
+            flex: 1;
+            margin: 0 var(--size-margin-20);
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .sightseeing {
+        >.sightseeing-navigation-links {
+            flex-direction: column;
+        }
+    }
+}

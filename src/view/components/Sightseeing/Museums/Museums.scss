@@ -1,0 +1,21 @@
+.museums {
+    >.price-table {
+        text-align: left;
+        border-collapse: collapse;
+        margin: var(--size-margin-20) auto var(--size-main-margin);
+        .align-right {
+            text-align: right;
+        }
+        th {
+            padding: 5px;
+        }
+        >tr {
+            &.price-table-header {
+                border-bottom: solid 1px var(--color-black);
+            }
+        }
+    }
+    >.acropolis-museum {
+        margin-bottom: var(--size-main-margin);
+    }
+}

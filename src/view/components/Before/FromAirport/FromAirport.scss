@@ -1,0 +1,27 @@
+.from-airport {
+    >.from-airport-section {
+        margin-bottom: var(--size-margin-40);
+        >.from-airport-options {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            >* {
+                flex: 1;
+            }
+        }
+        .from-airport-subsection {
+            margin-bottom: var(--size-margin-40);
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .from-airport {
+        >.from-airport-section {
+            margin-bottom: var(--size-margin-40);
+            >.from-airport-options {
+                flex-direction: column;
+            }
+        }
+    }
+}

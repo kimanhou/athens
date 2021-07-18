@@ -1,0 +1,59 @@
+.combined-ticket {
+    >.archaelogical-sites {
+        margin-bottom: var(--size-main-margin);
+        >.flex-row {
+            justify-content: center;
+            padding: 0 calc(var(--size-margin-50) * (-1));
+            margin-top: var(--size-margin-50);
+            >* {
+                margin: 0 var(--size-margin-50);
+            }
+        }
+    }
+    >.paragraph {
+        margin-bottom: var(--size-main-margin);
+        >.price-table {
+            text-align: left;
+            border-collapse: collapse;
+            margin: var(--size-margin-20) auto;
+            .align-right {
+                text-align: right;
+            }
+            th {
+                padding: 5px;
+            }
+            >tr {
+                &.price-table-header {
+                    border-bottom: solid 1px var(--color-black);
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 1100px) and (min-width: 601px) {
+    .combined-ticket {
+        >.archaelogical-sites {
+            >.flex-row {
+                padding: 0 calc(var(--size-margin-20) * (-1));
+                >* {
+                    margin: 0 var(--size-margin-20);
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .combined-ticket {
+        >.archaelogical-sites {
+            >.flex-row {
+                flex-direction: column;
+                padding: 0;
+                >* {
+                    margin: 0;
+                    margin-bottom: var(--size-margin-20);
+                }
+            }
+        }
+    }
+}

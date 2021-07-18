@@ -1,0 +1,9 @@
+.home {
+    >.content-wrapper-wrapper {
+        background-color: var(--color-white);
+        overflow: auto;
+        >.content-wrapper {
+            position: relative;
+        }
+    }
+}
