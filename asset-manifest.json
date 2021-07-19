@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "./static/css/main.50edff60.chunk.css",
+    "main.js": "./static/js/main.a1b5a875.chunk.js",
+    "main.js.map": "./static/js/main.a1b5a875.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.67a6fad5.js",
+    "runtime-main.js.map": "./static/js/runtime-main.67a6fad5.js.map",
+    "static/js/2.7c41bd51.chunk.js": "./static/js/2.7c41bd51.chunk.js",
+    "static/js/2.7c41bd51.chunk.js.map": "./static/js/2.7c41bd51.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.50edff60.chunk.css.map": "./static/css/main.50edff60.chunk.css.map",
+    "static/js/2.7c41bd51.chunk.js.LICENSE.txt": "./static/js/2.7c41bd51.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "./static/media/ViaodaLibre-Regular.8a7167d0.ttf",
+    "static/media/acropolis.72903d1d.jpg": "./static/media/acropolis.72903d1d.jpg",
+    "static/media/ancient-agora.4a5ae115.jpeg": "./static/media/ancient-agora.4a5ae115.jpeg",
+    "static/media/bus.7180ba48.png": "./static/media/bus.7180ba48.png",
+    "static/media/hadrians-library.e238c0cf.jpeg": "./static/media/hadrians-library.e238c0cf.jpeg",
+    "static/media/hero.f8a7084c.png": "./static/media/hero.f8a7084c.png",
+    "static/media/keramikos.6048a784.jpeg": "./static/media/keramikos.6048a784.jpeg",
+    "static/media/lykeion.3adc77d0.jpeg": "./static/media/lykeion.3adc77d0.jpeg",
+    "static/media/metro-map.5061d0af.png": "./static/media/metro-map.5061d0af.png",
+    "static/media/metro.ae78c49a.png": "./static/media/metro.ae78c49a.png",
+    "static/media/olympieion.5bdc717a.jpeg": "./static/media/olympieion.5bdc717a.jpeg",
+    "static/media/roman-agora.89a43ad5.jpeg": "./static/media/roman-agora.89a43ad5.jpeg",
+    "static/media/under-construction.c4e3a470.png": "./static/media/under-construction.c4e3a470.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.67a6fad5.js",
+    "static/js/2.7c41bd51.chunk.js",
+    "static/css/main.50edff60.chunk.css",
+    "static/js/main.a1b5a875.chunk.js"
+  ]
+}
