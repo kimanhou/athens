@@ -15,6 +15,9 @@ const Footer : React.FC<IFooterProps> = props => {
             <div className={`footer-signature`}>
                 Website powered by Kim Anh Nguyen
             </div>
+
+            <div className={`footer-copyright`}>
+            </div>
             
             {/* <div className={`footer-social-media`}>
                 <FooterSocial classname={`mail`} link={`mailto:mark.kimanh@gmail.com`}/>

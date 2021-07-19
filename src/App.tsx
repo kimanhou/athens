@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { HashRouter, Route, Switch } from 'react-router-dom';
 import './App.scss';
+import Food from './view/components/Food/Food';
 import Home from './view/components/Home/Home';
 import LocalContext from './view/components/LocalisationContext/LocalContext';
 import ScrollToTop from './view/components/ScrollToTop/ScrollToTop';
@@ -17,8 +18,8 @@ const App : React.FunctionComponent = props => {
                         <Route exact path={["/sightseeing"]}>
                             <Sightseeing setCurrentSection={setCurrentSection} currentSection={currentSection}/>
                         </Route>
-                        <Route exact path={["/contact"]}>
-                            {/* <Contact /> */}
+                        <Route exact path={["/food"]}>
+                            <Food />
                         </Route>
                         <Route exact path={["/"]}>
                             <Home />
