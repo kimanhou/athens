@@ -8,6 +8,7 @@ import hadrianslibrary from '../../../../../images/sigthseeing/hadrians-library.
 import olympieion from '../../../../../images/sigthseeing/olympieion.jpeg';
 import keramikos from '../../../../../images/sigthseeing/keramikos.jpeg';
 import lykeion from '../../../../../images/sigthseeing/lykeion.jpeg';
+import combinedTicket from '../../../../../images/sigthseeing/combined-ticket.jpg';
 
 const CombinedTicket : React.FC = props => {
     return (
@@ -50,6 +51,7 @@ const CombinedTicket : React.FC = props => {
                     <b>What we did:</b> we bought our combined ticket online the day before we wanted to visit the Acropolis and didn't have to wait at all. We then visited the other sites over the 4 remaining days.<br></br>
                     The amount of time spent indicated below is the time we spent in each site. We are fast visitors.
                 </p>
+                <img src={combinedTicket} alt='Information about combined ticket' className={`combined-ticket-image`}/>
             </div>
             
             <div className={`paragraph`}>

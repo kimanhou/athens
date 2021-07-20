@@ -17,5 +17,20 @@
     }
     >.acropolis-museum {
         margin-bottom: var(--size-main-margin);
+        .acropolis-museum-image {
+            width: 540px;
+            display: block;
+            margin: var(--size-main-margin) auto;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .museums {
+        >.acropolis-museum {
+            .acropolis-museum-image {
+                width: 100%;
+            }
+        }
     }
 }

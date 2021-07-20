@@ -12,6 +12,11 @@
     }
     >.paragraph {
         margin-bottom: var(--size-main-margin);
+        .combined-ticket-image {
+            width: 800px;
+            margin: var(--size-margin-20) auto;
+            display: block;
+        }
         >.price-table {
             text-align: left;
             border-collapse: collapse;
@@ -43,6 +48,16 @@
     }
 }
 
+@media screen and (max-width: 940px) and (min-width: 601px) {
+    .combined-ticket {
+        >.paragraph {
+            .combined-ticket-image { 
+                width: 540px;
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 600px) {
     .combined-ticket {
         >.archaelogical-sites {
@@ -53,6 +68,11 @@
                     margin: 0;
                     margin-bottom: var(--size-margin-20);
                 }
+            }
+        }
+        >.paragraph {
+            .combined-ticket-image { 
+                width: 100%;
             }
         }
     }
