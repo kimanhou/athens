@@ -47,5 +47,19 @@
         >.food-title {
             font-size: 13vw;
         }
+        >.food-places-filters { 
+            flex-direction: column;
+            >.food-places-tags { 
+                justify-content: flex-start;
+                padding: 0 calc(var(--size-margin-20) * (-1));
+                margin-left: 0;
+                margin-top: var(--size-margin-10);
+                flex-wrap: wrap;
+                justify-content: center;
+                >* {
+                    margin-top: var(--size-margin-10);
+                }
+            }
+        }
     }
 }
