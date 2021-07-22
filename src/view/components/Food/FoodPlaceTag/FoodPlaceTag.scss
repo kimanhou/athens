@@ -1,0 +1,11 @@
+.food-place-tag {
+    padding: var(--size-margin-10);
+    border: solid 1px var(--color-ash-gray);
+    border-radius: var(--size-margin-10);
+    color: var(--color-ash-gray);
+    cursor: pointer;
+    &.selected {
+        color: var(--color-dark-forest);
+        border-color: var(--color-dark-forest);
+    }
+}

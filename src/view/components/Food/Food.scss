@@ -10,6 +10,36 @@
         display: block;
         max-width: 100%;
     }
+    >.food-places-filters {
+        >.food-places-neighborhoods-select {
+            font-family: AnticDidone;
+            font-size: 1rem;
+            border-radius: var(--size-margin-10);
+            background-color: transparent;
+            padding: 5px;
+            cursor: pointer;
+            outline: none;
+        }
+        >.food-places-tags {
+            margin-left: var(--size-main-margin);
+            >* {
+                margin: 0 var(--size-margin-10);
+            }
+            >.select-all-button {
+                cursor: pointer;
+                background-color: transparent;
+                border-radius: var(--size-margin-10);
+                margin-left: var(--size-margin-40);
+                color: var(--color-dark-forest);
+                background-color: var(--color-ash-gray);
+                &:disabled {
+                    cursor: auto;
+                    background-color: transparent;
+                    color: var(--color-ash-gray);
+                }
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 600px) {
