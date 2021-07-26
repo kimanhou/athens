@@ -46,6 +46,14 @@ const Neighborhoods : React.FC = props => {
             </p>
             
             
+            <div className={`separator`}></div>
+
+            <h2>Beach</h2>
+            <h3>Edem</h3>
+            <p>
+                Closest public beach to the city center, sandy, not too crowded, decent, quite clean, shower and a bit of shade under the tamaris.<br></br>
+                <b>Where ?</b> 30 min tram (line 5, every 20 min) from Syntagma, South of Athens
+            </p>
             
             
             <img src={map} alt='Map of Athens neighborhoods'/>
