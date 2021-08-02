@@ -21,7 +21,7 @@ const Neighborhoods : React.FC = props => {
             <h3>Monastiraki</h3>
             <p>
                 Flea market, shopping<br></br>
-                <b>Where ? Around Monastiraki Square (and metro station), the main streets are Pandrossou Street and Adrianou Street</b> 
+                <b>Where ?</b> Around Monastiraki Square (and metro station), the main streets are Pandrossou Street and Adrianou Street
             </p>
 
             <div className={`separator`}></div>
@@ -43,6 +43,12 @@ const Neighborhoods : React.FC = props => {
             <p>
                 Technopolis (former gas factory, now cultural center and exhibition and concert hall), nightlife, cool and trendy<br></br>
                 <b>Where ?</b> Around Technopolis and Keramikos metro station
+            </p>
+
+            <h3>Pangrati</h3>
+            <p>
+                Home of the Panathenaic Stadium, also know as Kallimarmaro, authentic, creative<br></br>
+                <b>Where ?</b> Around Varnava Square. The stadium can be seen from outside by entering the door <a href='https://goo.gl/maps/d3oAvtXxUVmKpNeH8' target='_blank'>here</a>.
             </p>
             
             

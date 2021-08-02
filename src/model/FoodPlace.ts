@@ -3,7 +3,8 @@ export enum Neighborhood {
     EXARCHIA = 'Exarchia',
     KOLONAKI = 'Kolonaki',
     HISTORICAL = 'Historical center',
-    KERAMIKOS = 'Keramikos'
+    KERAMIKOS = 'Keramikos',
+    PANGRATI = 'Pangrati'
 }
 
 export enum FoodPlaceTag {
@@ -32,11 +33,12 @@ export default class FoodPlace {
     }
 
     static getAllFoodPlaces = () => {
-        return [ FoodPlace.ACHILLEAS, FoodPlace.FALAFELLAS, FoodPlace.KOSTAS, FoodPlace.MELT, FoodPlace.GRANELLO, FoodPlace.KAMPETHON, FoodPlace.NAKAMA, FoodPlace.SKLAVENITIS ];
+        return [ FoodPlace.ACHILLEAS, FoodPlace.FALAFELLAS, FoodPlace.KOSTAS, FoodPlace.MELT, FoodPlace.GRANELLO, 
+            FoodPlace.KAMPETHON, FoodPlace.NAKAMA, FoodPlace.CUPPOLA, FoodPlace.SKLAVENITIS ];
     }
 
     static getAllFoodPlaceNeighborhoods = () => {
-        return [ Neighborhood.ANY, Neighborhood.HISTORICAL, Neighborhood.KOLONAKI, Neighborhood.EXARCHIA, Neighborhood.KERAMIKOS ]
+        return [ Neighborhood.ANY, Neighborhood.HISTORICAL, Neighborhood.KOLONAKI, Neighborhood.EXARCHIA, Neighborhood.KERAMIKOS, Neighborhood.PANGRATI ]
     }
 
     static getAllFoodPlaceTags = () => {
@@ -51,5 +53,6 @@ export default class FoodPlace {
     static KAMPETHON = new FoodPlace('Kampethon', 'https://goo.gl/maps/W573AMCxBP17RfB47', [ FoodPlaceTag.LOCAL ], 'Local bar with dining options, tucked away in an empty area, good vibes.', '7.50€ for 200mL of pure Ouzo', Neighborhood.KERAMIKOS);
     static NAKAMA = new FoodPlace('Nakama', 'https://goo.gl/maps/Vy8K9SHCiHWFfaMAA', [ FoodPlaceTag.LOCAL ], 'Casual sushi bar in Kolonaki.', 'About 15€ / person', Neighborhood.KOLONAKI, 'https://www.nakama.gr/');
     static SKLAVENITIS = new FoodPlace('Sklavenitis', 'https://goo.gl/maps/LWqg6fkikD21kvbN6', [ ], 'Not a food place per say, but this specific location of Sklavenitis sells camembert Président.', '3.90€ / camembert', Neighborhood.KOLONAKI);
+    static CUPPOLA = new FoodPlace('Cuppola', 'https://goo.gl/maps/XxAJSMVUnt9G8keN9', [ FoodPlaceTag.LOCAL ], 'Upscale Italian restaurant with Neapoletan-style pizza, fresh pasta and wine. Pricey for Athens.', '14€ / pizza', Neighborhood.PANGRATI, 'https://cupola.gr/');
     
 }
